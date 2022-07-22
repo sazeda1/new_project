@@ -1,0 +1,137 @@
+/* Header part starts here */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.header-container{
+    display:flex;
+    justify-content:space-between;
+    background-color: #b8dafd ;
+}
+.left-header{
+    padding: 20px 30px;
+}
+
+.left-header a{
+    text-decoration:none;
+    font-weight:bold;
+    color: rgb(47, 47, 134);
+    font-size:20px;
+}
+
+.right-header{
+    display:flex;
+}
+
+
+.nav ul li{
+    display:inline-block;
+    padding:25px 30px;
+}
+.nav ul li a{
+   
+    text-decoration: none;
+    font-weight: bold;
+    color:  rgb(47, 47, 134);
+    
+
+}
+.nav ul li a:hover{
+   
+    color: pink;
+     
+ }
+ 
+ .header-button {
+
+    padding:25px 30px;
+ }
+
+ .header-button a{
+
+    text-decoration: none;
+    background-color: rgb(47, 47, 134);
+    color:white;
+    border-radius:5px;
+    padding:10px 20px;
+    font-weight:bold;
+ }
+
+ .header-button a:hover{
+
+    background-color:pink;
+ }
+
+/* --------------------------------------Header part ends here *------------------------------------------/ 
+
+/* Main part starts here  */
+.main-top{
+
+    display: flex;
+    justify-content:space-evenly;
+}
+.main-top-left{
+
+    margin-top:170px;
+}
+.main-top-left p{
+
+    margin-top:10px;
+}
+
+
+span{
+    color:wheat;
+   
+}
+.main-bottom{
+
+    display:flex;
+    justify-content:space-evenly;
+}
+.main-bottom-right{
+
+    margin-top: 80px;
+}
+.bottom-text{
+
+    margin-top:20px;
+}
+.bottom-text p{
+
+    margin-top:15px;
+    text-align:left;
+}
+
+
+.bottom-button-down{
+
+    margin-top:50px;
+}
+.bottom-button-down a{
+
+   text-decoration: none;
+   background-color: rgb(47, 47, 134);
+   padding:10px 20px;
+   border-radius:5px;
+   color:white;
+}
+
+.bottom-button-up a{
+
+    text-decoration: none;
+    padding:10px 15px;
+    background-color:whitesmoke;
+    color: black;
+    font-weight: bold;
+    border-radius:5px;
+
+}
+
+.bottom-button-down a:hover{
+
+    background-color: pink;
+}
+/* Main part ends here  */
